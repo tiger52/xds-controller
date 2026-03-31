@@ -180,7 +180,7 @@ Each name must match the `metadata.name` of an existing TLSSecret CR.
 
 This automatic configuration simplifies secret management on the listener and avoids hand-editing transport sockets for TLS.
 
-Please note that the `tlssecret_ref` field in the Route spec should match the name of the desired TLSSecret CR.
+Please note that the `tlssecret_ref` and `tlssecret_refs` fields in the Route spec should match the name of the desired TLSSecret CR.
 
 ## Annotations and Parameters
 
